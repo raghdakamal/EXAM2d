@@ -1,0 +1,206 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.Q1
+{
+	background: url(../images/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+	min-height: 500px;
+	padding: 100px;
+}
+.Q1 h2
+{
+    color: #fff;
+    font-size: 22px;
+    font-weight: normal;
+}
+.Q1 p
+{
+    color: #fff;
+    font-size: 12px;margin: 0;padding: 0;
+    font-weight: normal;
+}
+.toDoList{
+	margin-bottom: 15px;
+	border-left: 4px solid rgba(255,255,255,0.20);
+  background-color: rgba(29,29,29,0.40);
+  padding: 10px;
+	color: rgba(255,255,255,0.70);
+	cursor:pointer;	
+}.toDoList:hover{
+  background-color: rgba(29,29,29,0.5);
+	color: white; 
+	border-left: 4px solid  rgba(255,255,255,0.50);
+}
+.doneStyle{
+	border-left: 4px solid rgba(97,140,0,0.70);
+  background-color: rgba(187,255,109,0.40);
+}
+.doneStyle:hover{
+	border-left: 4px solid rgba(97,140,0,0.70);
+  background-color: rgba(187,255,109,0.50);
+}
+.xButton{
+	float:right;
+}
+
+.table th
+{
+    font-size:16px;
+	font-weight: bold;
+    color: #fff;
+}
+.table td
+{
+    font-size:20px;
+    color: #3e3028!important;
+    font-weight: 600;
+   
+}
+.btn1 
+{
+    background-color:  #100c0a!important;
+    padding: 10px 30px;
+    color: white;
+     box-shadow: none;
+}
+.btn2 
+{
+    background-color:  #100c0a!important;
+    padding: 10px 30px;
+    color: white;
+     box-shadow: none;
+}
+
+.Q2
+{
+  background-color: black;
+	
+}
+.Q4
+{
+  background-color: black;
+	
+}
+
+.mainClass2{
+	padding: 10px;
+		
+		color: gray;
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+		transition: all 0.5s ease;
+	}
+.newClass2{
+    	background-color: darkblue;
+		color: white;
+		background:red;
+		animation:myfirst 2s;
+		-moz-animation:myfirst 2s infinite;
+		-webkit-animation:myfirst 2s infinite;
+}
+.text1{
+	
+		font-size: 15px;
+	cursor: pointer;
+}
+@-moz-keyframes myfirst
+	{
+		0%   {background:#d10000;}
+		25%  {background:#d100b6;}
+		50%  {background:#0005d1;}
+		75%  {background:#05b405;}
+		100% {background:#ee7600;}
+}
+@-webkit-keyframes myfirst
+{
+		0%   {background:#d10000;}
+		25%  {background:#d100b6;}
+		50%  {background:#0005d1;}
+		75%  {background:#05b405;}
+		100% {background:#ee7600;}
+}
+	
+.DigitClock
+{
+    background: url(../images/Bachgroud1.jpg);
+    height: 300px;
+}
+.title h2
+{
+    color: #fff;
+    font-size: 20px;
+}
+.cNumbers
+{
+    font-weight: bold;
+	font-size: 84px;
+}
+.ctable
+{
+    /*border: 5px solid #F0F0F0;*/
+    color: #D0D0D0;
+	line-height: 45px;
+	width: 100%;
+  
+}
+.ctable tr td
+{
+    /*border: 2px solid #D0D0D0;*/
+	border: 0px;
+     color: white;
+	margin: 0;
+}
+.word
+{
+    
+    font-size: 10px;
+}
+.letter1
+{
+    color: #cc2900;
+}
+.letter2
+{
+    color:   #FFD74F;
+}
+.letter2,.letter1,.letter3:hover 
+{
+    cursor: pointer;
+   
+}
+.letter3
+{
+    color: #d10000;
+}
+.validate
+{
+    background-image: url(../images/ban.jpg)
+}
+.form h2
+{
+    color: #f0f0f5;
+    text-align: center;
+}
+.form label
+{
+    color: #f0f0f5;
+    font-size: 20px;
+}
+.btn .btn-dark
+{
+    color: #f0f0f5;
+}
+.form-group textarea
+{
+    margin-top: 20px;
+}
+.alert
+{
+    display: none;
+}
